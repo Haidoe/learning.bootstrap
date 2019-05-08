@@ -1,0 +1,59 @@
+body {
+    background: #333;
+    color: #FFF;
+}
+
+.navbar {
+    border-bottom: #008ed6 3px solid;
+    background: rgb(52,58,64, 0.8)
+}
+
+.navbar .modal {
+    opacity: 1;
+}
+
+.home {
+    background: url('../img/home.jpg') no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 700px;
+}
+
+.home .dark-overlay {
+    background: rgb(0, 0, 0, 0.7);
+    min-height: 700px;
+}
+
+.home .home-inner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 150px;
+}
+
+.home .fa-check {
+    color: #008ed6;
+    width: 50px;
+    height: 50px;
+    background: #FFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.explore footer .fas,
+.share footer .fas {
+    color: #FFF;
+    background: #333;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.create .fa-check {
+    color: #008ed0;
+    padding: 5px;
+    border-radius: 5px;
+    background: #FFF;
+}
+
